@@ -3,7 +3,7 @@ from qiskit.quantum_info import SparsePauliOp
 from qiskit.opflow import I, Z
 
 def pyqubo2nlocalising(qubo):
-"""Converts an n-local pyqubo dictionary to the Qiskit Ising dictionary"""
+"""Converts an n-local pyqubo dictionary to the Qiskit n-local Ising dictionary"""
     unique_variables = set()
     
     # Iterate through the keys and use regular expressions to capture variables
