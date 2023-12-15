@@ -1,6 +1,7 @@
 import re
 from qiskit.quantum_info import SparsePauliOp
 from qiskit.opflow import I, Z
+
 def pyqubo2nlocalising(qubo):
 """Converts an n-local pyqubo dictionary to the Qiskit Ising dictionary"""
     unique_variables = set()
