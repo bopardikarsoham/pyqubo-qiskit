@@ -1,5 +1,4 @@
 def sparse_pauli_to_ising(sparse_pauli_op):
-  from qiskit.quantum_info import SparsePauliOp
     linear = {}
     quadratic = {}
     offset = 0
